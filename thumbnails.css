@@ -1,0 +1,30 @@
+.container-thumb{
+display: flex;
+flex-wrap: wrap;
+}
+
+.thumbnails{
+    margin: 20px 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thumb{
+    padding: 20px 20px;
+    width: 250px;
+}
+
+.tecsun img{
+    background-color: rgb(213, 11, 11);
+}
+
+.eternity img{
+    background-color: rgb(69, 86, 86);
+}
+
+.cc img{
+    width: 200px;
+}

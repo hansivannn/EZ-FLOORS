@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@300;600&display=swap');
+
+:root {
+    --primary-color: rgb(255, 254, 237);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.container-nav {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+
+.logo {
+    width: 325px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 20px;
+    font-weight: 600;
+}
+
+li {
+    padding-left: 0px;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+li a {
+    color: #222;
+    text-decoration: none;
+}
+
+
+li:hover {
+    border-bottom: 1px #222 solid;
+}
+
+/* showcase & hero */
+.showcase {
+    /* background-color: rgba(230, 182, 40, 0.342); */
+    background-color: var(--primary-color);
+    display: flex;
+}
+
+
+/* showcase image & h2*/
+.showcase {
+    background-image: url(images/kitchen\ open.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: bottom center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+    flex-wrap: wrap;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.582);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-family: 'Raleway';
+    font-size: 100px;
+    height: 250px;
+    color: rgb(253, 244, 219);
+    padding-top: 50px;
+}
+
+/* Product section */
+
+.Products {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary-color);
+    font-family: 'Raleway';
+}
+
+.card-container-hwood {
+    background-image: url('https://images.unsplash.com/photo-1546940084-6333670a0666?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
+    height: 175px;
+    width: 275px;
+    line-height: 8.5em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.card-container-laminate {
+    background-image: url('https://images.unsplash.com/photo-1607570838997-65f270035031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80');
+    height: 175px;
+    width: 275px;
+    line-height: 8.5em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/*  another vinyl image - ignore--\
+plant in the middle
+
+https://images.unsplash.com/photo-1649460681436-46a7fde6ef08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80 */
+
+/* blinds shadows on floors */
+/* https://images.unsplash.com/photo-1542058374780-be185a5e80fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2868&q=80 */
+
+/* kitchen room scene */
+/* https://images.unsplash.com/photo-1569152811536-fb47aced8409?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80 */
+
+.card-container-spc {
+    background-image: url('https://images.unsplash.com/photo-1569152811536-fb47aced8409?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80 ');
+    height: 175px;
+    width: 275px;
+    line-height: 8.5em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/* carousel images */
+
+.carousel ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel li {
+    display: block;
+    list-style: none;
+}
+
+button.prev,
+button.next {
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #333;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+button.prev {
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+
+button.next {
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+
+
+
+
+#email {
+    text-decoration: none;
+    color: black;
+}
+
+#hours {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+/* Contact */
+.bottom {
+    background-color: var(--primary-color);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.yelp-img {
+    width: 220px;
+}
+
+.yelp-img :hover{
+    transition: 0.25s;
+transform: scale(1.05);
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactinfo h2 {
+    font-size: 2rem;
+}
+
+.contactinfo p {
+    font-size: 1rem;
+    padding: 3px;
+}
+
+#email:hover {
+    border-bottom: 1px #222 solid;
+}
+
+/* footer */
+
+.footer-nav p{
+    font-size: 1rem;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-nav a:hover{
+    border-bottom: 1px #222 solid;
+}

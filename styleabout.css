@@ -1,0 +1,51 @@
+/* About section */
+
+.empty-img {
+    height: 100%;
+}
+
+.container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 37% 57%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;     
+    overflow: visible;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    justify-self: left;
+}
+
+.container-about2 img{
+height: fit-content;
+width: 500px;
+}
+
+.container-about2 {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: auto;
+}
+
+.about2text{
+    font-size: 1.5rem;
+}
+
+.about2text p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
