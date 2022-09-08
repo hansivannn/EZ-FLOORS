@@ -1,0 +1,78 @@
+@media screen and (max-wiidth: 650px){
+    .logo{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    .hero h1{
+        font-size: 4.5rem;
+    }
+
+   .About{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column-reverse;
+    margin: 20px;
+   }
+
+   .about-text p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   .container-about2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+   }
+
+   .container-about2 img{
+    width: 440px;
+   }
+
+   .empty-img{
+    width: 440px;
+   }
+
+
+   .about2text p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   #Products{
+    font-size: 1rem;
+
+   }
+   
+}
+
+/* phone */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .showcase{
+        background-image: url(images/kitchen\ open.jpg);
+    }
+
+}
