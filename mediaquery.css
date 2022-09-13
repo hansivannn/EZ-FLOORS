@@ -59,20 +59,36 @@
 
 /* phone */
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media screen 
+  and (max-device-width: 500px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    
     
     body{
         display: flex;
         flex-direction: column;
-        
-
     }
 
     .showcase{
-        background-image: url(images/kitchen\ open.jpg);
+        background-size: cover;
+        width: 172vw;
     }
 
+    img{
+        padding-left: 50px;
+    }
+
+    .About{
+        display: flex;
+        padding-left: 45px;
+    }
+
+    .about2text{
+
+    }
 }
