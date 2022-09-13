@@ -1,0 +1,90 @@
+@media screen and (max-wiidth: 650px){
+    .logo{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    .hero h1{
+        font-size: 4.5rem;
+    }
+
+   .About{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column-reverse;
+    margin: 20px;
+   }
+
+   .about-text p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   .container-about2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+   }
+
+   .container-about2 img{
+    width: 440px;
+   }
+
+   .empty-img{
+    width: 440px;
+   }
+
+
+   .about2text p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   #Products{
+    font-size: 1rem;
+
+   }
+   
+}
+
+/* phone */
+
+@media screen 
+  and (max-device-width: 500px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .showcase{
+        background-size: cover;
+        width: 172vw;
+    }
+
+    img{
+        padding-left: 50px;
+    }
+
+    .About{
+        display: flex;
+        padding-left: 45px;
+    }
+}

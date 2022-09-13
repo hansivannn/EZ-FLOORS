@@ -11,8 +11,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -287,6 +286,7 @@ transform: scale(1.05);
 
 .footer-nav p{
     font-size: 1rem;
+    padding-top: 20px;
 }
 
 .footer-nav a{
@@ -296,4 +296,17 @@ transform: scale(1.05);
 
 .footer-nav a:hover{
     border-bottom: 1px #222 solid;
+}
+
+
+
+.copy{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
