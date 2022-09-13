@@ -2,4 +2,5 @@
 
 EZ Floors website
 
-first website
+Used netlify to deploy
+
