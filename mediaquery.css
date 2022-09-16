@@ -1,4 +1,4 @@
-@media screen and (max-wiidth: 650px){
+/* @media screen and (max-width: 650px){
     .logo{
         display: flex;
     }
@@ -55,36 +55,76 @@
 
    }
    
-}
+} */
 
 /* phone */
 
-@media screen 
-  and (max-device-width: 500px) {
+@media only screen and  (max-width : 500px){
     *{
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-
     
-    
-    body{
+    .container-nav{
         display: flex;
         flex-direction: column;
+        margin: auto; 
+        align-items: center;
+        background-color: var(--primary-color);
     }
 
-    .showcase{
-        background-size: cover;
-        width: 172vw;
+    .logo {
+        width: 300px;
+        padding-left: 0px;
+        padding-bottom: 0px;
     }
 
-    img{
-        padding-left: 50px;
+    .hero h1{
+        font-size: 4.6rem;
     }
 
-    .About{
+    #About{
+        display: none;
+    }
+
+    .about-text p{
+        font-size: 1.15rem;
+        font-weight: 300;
+    }
+    
+    .empty-img{
+        display: none;
+    }
+
+    .container-about2{
         display: flex;
-        padding-left: 45px;
+        flex-direction: column-reverse;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 20px;
+        text-align: center;
     }
+
+    .container-about2 img{
+        display:none;        
+    }
+
+    .about2text{
+        font-size: 1.2rem;
+    }
+
+    #Products h2{
+        display: none;
+    }
+
+    .Products{
+        margin-top: 0px;
+        padding-top:20px;
+        padding-bottom: 20px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+
 }
