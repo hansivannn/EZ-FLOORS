@@ -1,3 +1,5 @@
+console.log('hello there');
+
 // const slides = document.getElementsByClassName("carousel-item");
 // const nextButton = document.getElementById("carousel-button-next");
 // const prevButton = document.getElementById("carousel-button-prev");
