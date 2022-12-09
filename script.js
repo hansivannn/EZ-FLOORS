@@ -1,4 +1,5 @@
 console.log('hello there');
+console.log('nothing to see here.. Move along')
 
 // const slides = document.getElementsByClassName("carousel-item");
 // const nextButton = document.getElementById("carousel-button-next");
